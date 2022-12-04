@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+	--primary-color: #d63031;
+	--secondary-color; #636e72;
+	--font: 'Poppins', sans-serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+body{
+	background: url(https://th.bing.com/th/id/R.0e4a2d6499e6d69e69049b896fc83b72?rik=x0sN7kd1xUoILw&riu=http%3a%2f%2fwww.adworld.ie%2fwp-content%2fuploads%2f2017%2f06%2fgrocery-shopping.jpg&ehk=ADGJyq954Xa%2brtHPtpu8Rsg1ji5%2bMpj6jERAOP42BUs%3d&risl=&pid=ImgRaw&r=0);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 85vh;
+	/*background: black;*/
+	font-family: var(--font);
+}
+
+.btn{
+	padding: .6rem .8rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	background: var(--primary-color);
+	color:white;
+	font-size: 16px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid var(--primary-color);
+	transition: .3s;
+	cursor:pointer;
+	margin: 70px;
+	position: relative;
+	top: 10rem;
+	left: 35rem;
+}
+.btn:hover{
+	background: transparent;
+}
+	
+
+nav{
+	position: fixed;
+	width: 100vw;
+	height: 60px;
+	/*border-top: .5rem solid var(--primary-color);*/
+	display: flex;
+	justify-content: space-between;
+	align-items: centre;
+	z-index: 999999;
+	background: var(--primary-color);
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 55px;
+	width: 15%;
+	font-weight: 700;
+	background: var(--primary-color);
+}
+
+.logo::before{
+	content: "W";
+	color: white;
+	
+}
+.logo::after{
+	content: "M";
+	color: Black;
+}
+
+u1{
+	display: flex;
+	align-items: center;
+	height: 60px;
+}
+
+u1 a{
+	text-decoration: none;
+	color: white;
+	margin: 0 2rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	font-weight: 700;
+	font-size: 16px;
+}
+
+u1 li{
+	list-style: none;
+
+}
+
+
+u1 a:hover{
+	color: var(--primary-color);
+}
+	
+.intro{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: white;
+}
+
+.intro h2,p{
+	dispaly: block;
+	width: 0%;
+}
+
+.intro h2{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 30px;
+}
+
+.intro .btn{
+	margin-top: 2rem;
+}
+
+/*
+.divcls{
+	background-color:red;
+	position: relative;
+	top: 8rem;
+	
+	
+}
+*/
+
+.row{
+	
+	position: relative;
+	top: 8rem;
+	font-size:20px;
+	
+	
+}
+
+.small{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;
+		
+}
+
+.row2{
+	
+	position: relative;
+	top: 0rem;
+	font-size:13px;	
+	
+}
+.small2{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;		
+}
+
+.row3{
+	
+	position: relative;
+	top: 0rem;	
+	font-size:13px;	
+}
+.small3{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;		
+}
+
+.row4{
+	
+	position: relative;
+	top: 0rem;		
+	font-size:13px;	
+}
+.small4{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;		
+}
+
+.row5{
+	
+	position: relative;
+	top: 0rem;
+	font-size:13px;	
+		
+}
+.small5{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;	
+	border-bottom: 0.2rem solid red;
+	
+}
+.row6{
+	border-top: 0.2rem solid red;	
+	position: relative;
+	top: 5rem;
+	font-size:20px;	
+}
+
+.apple{
+	
+	position: relative;
+	top: 0rem;
+	font-size:13px;	
+	
+}
+.a{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;		
+}
+
+.mango{
+	font-size:20px;
+	position: relative;
+	top: 0rem;
+	font-size:13px;		
+	
+}
+.b{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;		
+}
+
+.orange{
+	
+	position: relative;
+	top: 0rem;		
+	font-size:20px;
+	font-size:13px;	
+}
+.c{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;		
+}
+
+.banana{
+	
+	position: relative;
+	top: 0rem;
+	font-size:13px;	
+		
+}
+.d{
+	
+	position: relative;
+	top: 0rem;
+	font-family: Serif fonts;
+	font-size: 11px;	
+}
+
+
+img{
+	margin: 10px;
+	position: absolute;
+	left: 25%;
+}
+
+.dis{
+	padding: .100rem .500rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	background: var(--primary-color);
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid var(--primary-color);
+	transition: .3s;
+	cursor:pointer;
+	margin: 70px;
+	position: relative;
+	top: 8.3rem;
+	left: 24rem;
+}

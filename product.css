@@ -1,0 +1,30 @@
+body{
+	background: url(https://th.bing.com/th/id/R.dbcbfef861f77b4365c34e90ab25f178?rik=vNlTBDYZZg5vpg&pid=ImgRaw&r=0);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 85vh;
+	font-family: var(--font);
+}
+h2{
+    font-size: 7rem;
+}
+.dis{
+	padding: .100rem .500rem;
+	text-transform: uppercase;
+	font-family: var(--font);
+	background: orange;
+	color:white;
+	font-size: 20px;
+	text-decoration: none;
+	outline: none;
+	border: 2px solid var(--primary-color);
+	transition: .3s;
+	cursor:pointer;
+	margin: 70px;
+	position: relative;
+	top: -2rem;
+	left: 54.4rem;
+
+}

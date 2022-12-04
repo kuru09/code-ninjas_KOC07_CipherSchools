@@ -1,0 +1,65 @@
+body{
+	background: url(https://th.bing.com/th/id/R.bc39d87689cb8fc62889f0c7e86bb84e?rik=tNzU0UPTERLmMw&riu=http%3a%2f%2fgraphics8.nytimes.com%2fimages%2f2013%2f04%2f04%2fbusiness%2fWalmart%2fWalmart-superJumbo.jpg&ehk=CaayqtNqLDkdW9V37JmH4AOtkqbbjlsRw7AJvFPFlnk%3d&risl=&pid=ImgRaw&r=0);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 85vh;
+	font-family: var(--font);
+}
+
+.Header{
+	font-family: var(--font);
+	top: 90rem;
+	font-size:19px;	
+		
+}
+
+.a{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.b{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.c{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.d{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.e{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.f{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.g{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
+.h{
+	
+	position: relative;
+	top: -1.5rem;
+		
+}
